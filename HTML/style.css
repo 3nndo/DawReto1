@@ -18,12 +18,22 @@ a {
     color: white;
 }
 ul{
+    height: 1em;
     gap: 1em;
     display: flex;
     justify-content: center;
 }
 li{
     list-style: none;
+}
+li:hover{
+    padding: 0.3em;
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
+    transition: transform 0.2s ease;
+    transform: translateY(-0.5em);
 }
 
 
@@ -37,16 +47,7 @@ iframe{
 }
 
 
-/* ====================== footer ====================== */
-footer{
-    margin-top: 2em;
-    background-color: blue;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-}
-
-
+/* ====================== HERO ====================== */
 .hero{
     height: 20em;
     display: flex;
@@ -59,6 +60,16 @@ footer{
 }
 
 
+
+/* ====================== FOOTER ====================== */
+footer{
+    margin-top: 2em;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
 section:first{
     padding: 4em;
 }
@@ -66,4 +77,17 @@ section:first{
 section{
     padding: 4em;
     padding-top: 0px;
+}
+.marca{
+    background-color: blue;
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* ====================== LOGO ====================== */
+
+.logo{
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
 }
