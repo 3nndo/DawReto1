@@ -130,6 +130,7 @@ main section:first-of-type{
 
 }
 
+<<<<<<< Updated upstream
 .cards{
     display: flex;
     justify-content: center;
@@ -150,6 +151,167 @@ main section:first-of-type{
 
 .cards div:first-of-type{
     margin-right: 4em;
+=======
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #0000ff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Hero */
+.hero {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-col p, .footer-col ul {
+    font-size: 12px;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-col a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+>>>>>>> Stashed changes
 }
 
 
