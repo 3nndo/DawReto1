@@ -106,14 +106,14 @@ footer{
 /* =========== main ========= */
 
 main section{
-padding-bottom:3em ;    
-padding-left: 3em;
-padding-right: 3em;
+margin-bottom:3em ;    
+margin-left: 3em;
+margin-right: 3em;
 }
 
 
 main section:first-of-type{
-    padding-top: 3em;
+    margin-top: 3em;
 }
 
 .cardsection{
@@ -150,6 +150,9 @@ main section:first-of-type{
 
 .cards div:first-of-type{
     margin-right: 4em;
+}
+
+
 /* Estilos generales */
 * {
     box-sizing: border-box;
@@ -158,13 +161,8 @@ main section:first-of-type{
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #f4f4f4;
-    color: #333333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+
+
 
 /* Barra de navegación */
 nav {
@@ -200,47 +198,11 @@ nav {
     text-decoration: underline;
 }
 
-/* Banner Hero */
-.hero {
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-}
-
-.hero h1 {
-    font-size: 28px;
-    font-weight: bold;
-}
 
 /* Contenido principal */
-main {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 20px;
-    flex: 1;
-}
 
 section {
     margin-bottom: 25px;
-}
-
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #000000;
-}
-
-h3 {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #000000;
 }
 
 p {
@@ -312,12 +274,20 @@ footer {
 }
 
 
+
+
 .imageText{
     display: flex;
-
+    margin: 0;
 }
 
-.quarter{
-
+.imageTextSec{
+    margin-left:0px ;
+    margin-right: 0px;
 }
 
+/* ====== AJUSTES GENERALES ======== */
+
+h4{
+    font-size: xx-large;
+}
