@@ -284,10 +284,33 @@ footer {
 .imageTextSec{
     margin-left:0px ;
     margin-right: 0px;
+    background-color: #000000;
+    
 }
 
 /* ====== AJUSTES GENERALES ======== */
 
 h4{
     font-size: xx-large;
+}
+
+.imageTextSec .textContainer{
+    margin-left: 1.5em;
+    color: #ffffff;
+    padding-top: 1em;
+
+}
+
+.textContainer p{
+    color: #ffffff;
+}
+
+/*colocar la imagen en un div como Background image y a ese div le das altura y tal*/
+
+.imageTextSec .quarter img{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 70%;
+    object-fit: cover;
 }
