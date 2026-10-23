@@ -3,77 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoShark - Inicio</title>
-    <!-- Enlace al archivo CSS externo -->
-<<<<<<< Updated upstream
-    <link rel="stylesheet" href="style.css">
-=======
-    <link rel="stylesheet" href="stylescontacto.css">
->>>>>>> Stashed changes
+    <title>EcoShark - Contáctanos</title>
+    <!-- Mantenemos el enlace exacto al archivo de estilos que comparte el equipo -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navegación -->
-    <nav>
-        <a href="index.html" class="logo">EcoShark</a>
-        <ul class="nav-links">
-            <li><a href="index.html">Quienes Somos</a></li>
-            <li><a href="#objetivos">Objetivos</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="contacto.html">Contactnos</a></li>
-        </ul>
-    </nav>
+    <!-- Navegación y Encabezado principal (idéntico al de la imagen) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>EcoShark</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">QUIÉNES SOMOS</a></li>
+                <li><a href="#objetivos">OBJETIVOS</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="contacto.html" class="active">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Banner -->
-    <div class="hero">
-        <h1>La tecnología al servicio de un futuro más sostenible</h1>
-    </div>
+    <!-- Banner principal con imagen de fondo y mensaje -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>La tecnología al servicio de un futuro más sostenible</h2>
+        </div>
+    </section>
 
-    <!-- Contenido -->
+    <!-- Sección Principal de Contacto -->
     <main>
-        <section id="quienes-somos">
-            <h2>Quiénes somos</h2>
-            <p>EcoShark es una empresa de desarrollo de software centrada en crear soluciones digitales que contribuyan al cuidado del medioambiente. Nuestro objetivo es utilizar la tecnología para facilitar la organización de actividades de limpieza y fomentar la participación ciudadana en eventos sostenibles. Para ello, estamos desarrollando una plataforma web que conecta a organizadores de eventos con personas interesadas en colaborar en la recogida de residuos y la limpieza de los espacios utilizados. Creemos que la innovación digital puede ayudar a mejorar la coordinación de los voluntarios, optimizar los recursos disponibles y reducir el impacto ambiental de conciertos, festivales, ferias y competiciones deportivas. Nuestro equipo apuesta por el trabajo colaborativo, la accesibilidad y el desarrollo de herramientas sencillas que permitan a más personas participar en iniciativas medioambientales. En EcoShark trabajamos para demostrar que la tecnología no solo sirve para resolver problemas digitales, sino también para aportar soluciones a necesidades reales de nuestra sociedad y contribuir a construir un futuro más limpio.</p>
-            
-            <h3>Compromiso medioambiental</h3>
-            <h3>Gestión de voluntarios</h3>
-            <p>Nuestra plataforma permitirá a los organizadores publicar actividades de limpieza y gestionar las inscripciones de las personas voluntarias. De esta forma, será más sencillo coordinar a los participantes, organizar los equipos y distribuir las tareas según las necesidades de cada evento, favoreciendo una colaboración más eficiente.</p>
-            
-            <h3>Innovación tecnológica</h3>
-            <p>Desarrollamos soluciones web orientadas a mejorar la organización de eventos sostenibles. Nuestra aplicación contempla tanto eventos con una ubicación fija, como conciertos y festivales, como competiciones deportivas que se desarrollan a lo largo de un recorrido, como maratones o pruebas ciclistas. Así, buscamos adaptar la gestión del voluntariado a las características de cada actividad.</p>
+        <section class="contenido-principal">
+            <h2>Contáctanos</h2>
+            <p>
+                En <strong>EcoShark</strong> estamos a tu disposición para resolver cualquier duda, colaborar en nuevos proyectos sostenibles o recibir tus sugerencias. Completa el siguiente formulario o ponte en contacto con nuestro equipo directamente.
+            </p>
         </section>
 
-        <section id="proyectos">
-            <h2>Nuestro proyecto</h2>
-            <p>Estamos desarrollando una aplicación web para facilitar la captación, gestión y validación de voluntarios dedicados a la limpieza de residuos generados durante eventos. La plataforma ayudará a los organizadores a coordinar las actividades, controlar las inscripciones y organizar los equipos de limpieza según las necesidades de cada celebración. Queremos que colaborar sea más sencillo y que la gestión de estas iniciativas contribuya a reducir el impacto ambiental de los eventos y a fomentar una mayor responsabilidad medioambiental.</p>
+        <!-- Tarjetas / Cajas con el mismo estilo que las de "Compromiso medioambiental" -->
+        <section class="tarjetas-seccion">
+            
+            <!-- Tarjeta 1: Formulario de Contacto -->
+            <div class="tarjeta">
+                <h3>Envíanos un mensaje</h3>
+                <form action="#" method="POST" class="formulario-contacto">
+                    <div class="campo">
+                        <label for="nombre">Nombre y Apellidos:</label><br>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="email">Correo Electrónico:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="ejemplo@ecoshark.com">
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="asunto">Asunto:</label><br>
+                        <input type="text" id="asunto" name="asunto" required placeholder="Motivo de tu consulta">
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe aquí tu mensaje..."></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <!-- Tarjeta 2: Información Directa de Contacto y Ubicación -->
+            <div class="tarjeta">
+                <h3>Información de Contacto</h3>
+                <p><strong>Atención directa:</strong></p>
+                <ul>
+                    <li><strong>Email:</strong> contacto@ecoshark.com</li>
+                    <li><strong>Teléfono:</strong> +34 944 00 00 00</li>
+                    <li><strong>Horario:</strong> Lunes a Viernes de 9:00 a 18:00</li>
+                </ul>
+                <br>
+                <p><strong>Ubicación del Proyecto EcoShark:</strong></p>
+                <p>Bilbao, Bizkaia — España</p>
+            </div>
+
         </section>
     </main>
 
     <!-- Pie de página -->
     <footer>
-        <div class="footer-container">
-            <div class="footer-col">
-                <div class="footer-icon"></div>
-                <h4>Contacto</h4>
-                <p>soporte@ecoshark.com</p>
-                <p>Tel: 645894924</p>
-            </div>
-            <div class="footer-col">
-                <h4>Aviso</h4>
-                <ul>
-                    <li><a href="#">Aviso legal LSSI-CE</a></li>
-                    <li><a href="#">Política de privacidad</a></li>
-                    <li><a href="#">Política de cookies (UE)</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <div class="footer-icon"></div>
-                <h4>Red social</h4>
-            </div>
-        </div>
-        <div class="copyright">
-            © 2025-2026 EcoShark
-        </div>
+        <p>&copy; 2026 EcoShark. Todos los derechos reservados.</p>
     </footer>
 
 </body>
