@@ -106,12 +106,49 @@ footer{
 /* =========== main ========= */
 
 main section{
+padding-bottom:3em ;    
+padding-left: 3em;
+padding-right: 3em;
+}
+
+
+main section:first-of-type{
+    padding-top: 3em;
+}
+
+.cardsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
     
 }
 
-main section:first{
-    padding: 3em;
+.containerCards{
+    text-align: center;
+
+
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+}
 
+.cards div p{
+    text-align: left;
+}
+
+.cards div{
+    max-width: 50em;
+    box-shadow: 0em 0em 0.5em #8c8c8c;
+    border-radius:0.5em;
+    padding: 2em;
+    margin-top: 3em;
+    
+}
+
+.cards div:first-of-type{
+    margin-right: 4em;
+}
 
