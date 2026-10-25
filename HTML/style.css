@@ -23,11 +23,33 @@ nav ul{
 }
 li{
     list-style: none;
+    transition: transform 0.2s ease;
 }
 nav li:hover{
-    border: solid black 0.1em;    
+    text-shadow: 0 0 1em rgb(0, 138, 252);  
     transform: translateY(-0.2em);
+    font-weight: bolder;
+}
+
+nav li:hover a{
+    color: white;
     transition: transform 0.2s ease;
+}
+
+h1{
+    color: white;
+    text-shadow: 0 0 0.2em rgb(0, 138, 252);
+    transition: 500ms;
+}
+
+h1:hover{
+    color: rgb(0, 138, 252);
+    text-shadow: 0 0 1em rgb(0, 138, 252);
+
+}
+
+.navSVG{
+    transform: translateY(0.2em);
 }
 
 
@@ -82,15 +104,17 @@ main section:first-of-type{
 }
 
 .cards div p{
+    margin-top: 10%;
     text-align: left;
 }
 
 .cards div{
-    max-width: 50em;
+    max-width: 20em;
     box-shadow: 0em 0em 0.5em #8c8c8c;
     border-radius:0.5em;
     padding: 2em;
     margin-top: 3em;
+
     
 }
 
