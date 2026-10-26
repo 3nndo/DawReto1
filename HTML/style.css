@@ -42,6 +42,18 @@ nav li:hover a{
     color: white;
     transition: transform 0.2s ease;
 }
+nav::after{
+    height: 10em;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: linear-gradient(rgba(7, 104, 196, 0.286), rgba(254, 180, 123, 0));
+    z-index: -1;
+    content: "";
+    
+
+}
 
 h1{
     color: white;
