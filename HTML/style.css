@@ -60,11 +60,11 @@ header::after{
     inset: 0;
     height: 100%;
     width: 100%;
+    padding-bottom: 5em;    
     background: linear-gradient(rgba(7, 104, 196, 0.286), rgba(254, 180, 123, 0));
     z-index: 0;
-    pointer-events: none;}
-
-
+    pointer-events: none;
+}
 
 h1{
     color: white;
