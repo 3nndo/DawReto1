@@ -15,10 +15,13 @@ main{
 /* ====================== HEADER ====================== */
 header{
     display: flex;
-    background-color: #0B1F33;
+    background: #0B1F33;
+    background: linear-gradient(360deg, rgba(11, 31, 51, 1) 53%, rgba(48, 141, 184, 1) 100%);
     align-items: center;
+    position: relative;
     padding: 1em;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -42,18 +45,26 @@ nav li:hover a{
     color: white;
     transition: transform 0.2s ease;
 }
-nav::after{
-    height: 10em;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: linear-gradient(rgba(7, 104, 196, 0.286), rgba(254, 180, 123, 0));
-    z-index: -1;
-    content: "";
-    
 
+nav{
+    display: flex;
+
+    align-items: center;
+    padding: 1em;
 }
+
+
+header::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(7, 104, 196, 0.286), rgba(254, 180, 123, 0));
+    z-index: 0;
+    pointer-events: none;}
+
+
 
 h1{
     color: white;
