@@ -126,12 +126,8 @@ main section:first-of-type{
     border-radius:0.5em;
     padding: 2em;
     margin-top: 3em;
-
-    
-}
-
-.cards div:first-of-type{
     margin-right: 4em;
+    
 }
 
 .imageText{
@@ -199,4 +195,3 @@ footer{
 .objetivoimg{
     text-align: center;
 }
-
