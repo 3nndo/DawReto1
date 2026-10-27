@@ -15,8 +15,7 @@ main{
 /* ====================== HEADER ====================== */
 header{
     display: flex;
-    background: #0B1F33;
-    background: linear-gradient(180deg, rgb(17, 57, 97)75%, rgba(48, 141, 184, 0) 100%);
+    background-color: #0B1F33;
     align-items: center;
     position: relative;
     padding: 1em;
@@ -111,7 +110,7 @@ main section:first-of-type{
 
 .cards div p{
     margin-top: 10%;
-    text-align: left;
+    text-align:  justify;
 }
 
 .cards div{
@@ -122,6 +121,10 @@ main section:first-of-type{
     margin-top: 3em;
     margin-right: 4em;
     
+}
+
+.cards div:last-of-type{
+    margin-right: 0;
 }
 
 .imageText{
