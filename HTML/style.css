@@ -14,10 +14,17 @@ body{
     background-repeat: no-repeat;
 }
 
+.SVGs{
+     transform: translateY(-0.2em);
+}
+
 main{
     flex: 1;
-    margin: 0% 10%;
-    background-color: #f2f2f2;
+    margin: 1em 10%;
+    background-color: #f2f2f2a1;
+    backdrop-filter: blur(1em);
+    border-radius:2em ;
+    border: solid 0.2em rgba(255, 255, 255, 0.305);  
 }
 /* ====================== HEADER ====================== */
 header{
@@ -90,9 +97,13 @@ iframe{
 /* ====================== MAIN INDEX====================== */
 
 main section{
-margin-bottom:3em ;    
+margin-bottom:15em ;    
 margin-left: 3em;
 margin-right: 3em;
+}
+
+main section:last-of-type{
+margin-bottom:3em ;    
 }
 
 
@@ -116,11 +127,12 @@ main section:first-of-type{
 }
 
 .cards div p{
-    margin-top: 10%;
+    margin-top: 15%;
+    font-size: 1.25em;
 }
 
 .cards div{
-    max-width: 20em;
+    max-width: 25em;
     box-shadow: 0em 0em 0.5em #8c8c8c;
     border-radius:0.5em;
     padding: 2em;
@@ -135,11 +147,19 @@ main section:first-of-type{
 
 .imageText{
     gap: 2em;
+    
     display: flex;
 }
+
+.imageText p{
+    font-size: 1.3em;
+}
+
+
 .imageText img{
-  width: 300px;
-  height: 200px;  
+    width: 50em;  
+    border-radius: 1em;
+    box-shadow: 0 0.6em 1em rgba(0, 0, 0, 0.457);
 }
 
 /* ====================== MAIN CONTACTANOS====================== */
@@ -173,7 +193,14 @@ form{
 }
 
 h4{
-    font-size: xx-large;
+    font-size: 3em;
+    color: white;
+    text-shadow:0 0 1em #67d5e8;
+    margin-bottom: 0.5em;
+}
+
+h5{
+       font-size: 1.7em; 
 }
 
 .navSVG{
@@ -183,10 +210,14 @@ h4{
 /* ====================== FOOTER ====================== */
 
 .footer {
-  background: linear-gradient(135deg, #061b2b, #0b344b);
+  background: linear-gradient(135deg, #061b2b5c, #0b344bbd);
   color: #fff;
   padding: 50px 8% 20px;
   font-family: Arial, sans-serif;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  border-top: solid 0.2em #235982;
+  backdrop-filter: blur(0.5em);
 }
 
 .footer-content {
@@ -218,6 +249,7 @@ h4{
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  justify-self: center;
 }
 
 .footer a {
@@ -239,6 +271,13 @@ h4{
   text-align: center;
   font-size: 13px;
 }
+
+.footer-social a{
+    display: flex;
+    align-items: center;
+}
+
+
 
 @media (max-width: 700px) {
   .footer-content {
