@@ -43,6 +43,14 @@ a {
 nav ul{
     display: flex;
     gap: 3em;
+    width: 100%;
+    align-items: center;
+}
+header nav{
+    flex: 1;
+}
+nav li:last-child{
+    margin-left: auto;
 }
 li{
     list-style: none;
