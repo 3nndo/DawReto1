@@ -97,7 +97,7 @@ iframe{
 /* ====================== MAIN INDEX====================== */
 
 main section{
-margin-bottom:15em ;    
+margin-bottom:5em;    
 margin-left: 3em;
 margin-right: 3em;
 }
@@ -127,7 +127,7 @@ main section:first-of-type{
 }
 
 .cards div p{
-    margin-top: 15%;
+    margin-top: 1em;
     font-size: 1.25em;
 }
 
@@ -138,7 +138,6 @@ main section:first-of-type{
     padding: 2em;
     margin-top: 3em;
     margin-right: 4em;
-    
 }
 
 .cards div:last-of-type{
@@ -157,7 +156,7 @@ main section:first-of-type{
 
 
 .imageText img{
-    width: 50em;  
+    
     border-radius: 1em;
     box-shadow: 0 0.6em 1em rgba(0, 0, 0, 0.457);
 }
@@ -241,8 +240,22 @@ form {
     border-radius: 14px;
 }
 
-
 /* ====== AJUSTES GENERALES ======== */
+.border{
+    box-shadow: 0em 0em 0.5em #8c8c8c;
+    border-radius:0.5em;
+    padding: 2em;
+}
+
+.pequeño{
+    width: 20em;
+    height: 15em;
+}
+
+.mediano{
+    width: 50em;
+}
+
 .Boton{
     padding: 0.5em;
     background-color: lightblue;
