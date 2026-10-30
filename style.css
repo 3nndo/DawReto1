@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     flex-direction: column;
     background-image: url(Imagenes/oceano.gif);
+    background-color: #4B75FF;
     background-size: cover;
     background-repeat: no-repeat;
 }
